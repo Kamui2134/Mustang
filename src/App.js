@@ -25,9 +25,7 @@ function App() {
 						<h2 className='block-2__h2'>
 							New 1969-70 Ford Mustang Mach 1, Boss 302 and Boss 429 now on sale
 						</h2>
-						<p className='p p-left'>
-							Ford has a new Mach 1 in the works.
-						</p>
+						<p className='p p-left'>Ford has a new Mach 1 in the works.</p>
 						<p className='p p-left'>
 							It’s not a Mustang, but an all-electric performance utility
 							vehicle that it plans to unveil in a couple of years.
@@ -48,7 +46,6 @@ function App() {
 									do the same for the 1969-1970 Mach 1, Boss 302 and Boss 429.
 								</p>
 							</div>
-
 							<div className='block-2__rotated-text'>
 								this company will sell you a brand new 1969 ford mustang boss
 								429
@@ -105,13 +102,13 @@ function App() {
 							src='/img/5.png'
 							alt='mustang'
 						/>
-						<p className='p'>
+						<p className='p p-block-5-right-top'>
 							But no matter how good the current car is, there's always going to
 							be a certain group of people who wish Ford would simply keep
 							building vintage Mustangs. That's where continuation builders such
 							as Classic Recreations come in.
 						</p>
-						<p className='p'>
+						<p className='p p-block-5-right-bottom'>
 							Classic Recreations has been building officially licensed Shelby
 							Mustangs for a while, and according to our friends at AUTOMOBILE,
 							they're good. Really good. Recently, CR landed the license to
@@ -124,7 +121,44 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className='block-5'></div>
+			<div className='block-5'>
+				<div className='block-5__box'>
+					<div className='block-5__column-1'>
+						<h2 className='block-5__h2'>
+							Combo Platter: Jim Weigle’s 1969/2014 Mustang is an exercise in
+							mating old and new to create one amazing Mustang
+						</h2>
+						<p className='p'>
+							When we first walked up to Jim Weigle’s all-black 1969 Mustang
+							SportsRoof at the Carlisle Ford Nationals in 2017, it got our
+							attention because it was straight as an arrow and with paint as
+							deep as the ocean. 
+						</p>
+						<img className='block-5__left-img' src='/img/6.jpg' />
+					</div>
+					<div className='block-5__column-2'>
+						<img className='block-5__right-img' src='/img/7.png' />
+						<div className='block-5__rotated-text'>
+							1969 boss mustangs now built brand new!
+						</div>
+						<div className='block-5__p-container'>
+							<p className='p'>
+								Then we looked under the hood; “Nice, four-cam Cobra motor swap
+								and it looks factory.” As we soon found out, it was. So What?
+							</p>
+							<p className='p'>
+								That engine wasn’t even a dream in any engineers’ eyes in 1969.
+								The deeper we looked, the more it became obvious what we were
+								looking at. Jim very skillfully mated the 1969 body to the
+								complete chassis and running gear of a 2014 Shelby GT500,
+								complete with the full 2014 interior, accessories, and even fuel
+								filler. And a few bug guts in the grille proved he drove it to
+								Carlisle from his home in Parkersburg, West Virginia. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	)
 }
