@@ -12,9 +12,9 @@ function App() {
 					<h3 className='block-1__h3'>
 						1969 Mustang Body on a 2014 GT500 Chassis?
 					</h3>
-					<h1 className='block-1__h2'>
+					<h2 className='block-1__h2'>
 						<p className='text-gradient'>yes please!</p>
-					</h1>
+					</h2>
 				</div>
 			</div>
 			<div className='block-2'>
@@ -37,7 +37,7 @@ function App() {
 						<p className='p p-left'>At least the closest thing to it.</p>
 					</div>
 					<div className='block-2__column-2'>
-						<div className='block2__right-text-container'>
+						<div className='block-2__right-text-container'>
 							<div className='block-2__right-mini-p-container'>
 								<p className='p'>
 									Classic Recreations of Yukon, Oklahoma has been building a
