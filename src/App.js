@@ -74,7 +74,12 @@ function App() {
 						“Boss 9” hemispherical heads and electronic fuel injection that’s
 						already putting out 700 hp, and they’re not done tuning it yet.
 					</p>
-					<button className='button'>Read More</button>
+					<a
+						className='button'
+						href='https://en.wikipedia.org/wiki/Boss_429_Mustang'
+					>
+						Read More
+					</a>
 				</div>
 				<div className='block-3__bottom-triangle' />
 			</div>
@@ -117,7 +122,12 @@ function App() {
 							resto-mods, either. Underneath the vintage sheetmetal, you
 							essentially get a brand new car.
 						</p>
-						<button className='button'>Read More</button>
+						<a
+							className='button'
+							href='https://www.classicandsportscar.com/features/ford-mustang-boss-302-vs-mach-1-two-trick-ponies'
+						>
+							Read More
+						</a>
 					</div>
 				</div>
 			</div>

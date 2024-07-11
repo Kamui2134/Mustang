@@ -56,6 +56,7 @@
 }
 
 .text-gradient {
+	width: 100%;
 	color: #32064a;
 	background: linear-gradient(0deg, #e56b1f 12%, #32064a 80%);
 	-webkit-background-clip: text;
@@ -285,7 +286,11 @@
 .button {
 	width: 132px;
 	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: none;
+	text-decoration: none;
 	border: 2px solid #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-optical-sizing: auto;
@@ -595,13 +600,13 @@
 		padding: 358px 35px 0 35px;
 		gap: 12px;
 	}
-	.block-5__right-img {
-		height: 324px;
-		width: 500px;
-	}
 	.block-5__left-img {
 		height: 340px;
 		width: 408px;
+	}
+	.block-5__right-img {
+		height: 324px;
+		width: 500px;
 	}
 	.block-5__rotated-text {
 		bottom: 69px;
@@ -628,18 +633,15 @@
 		width: 717px;
 		font-size: 185px;
 		transform: scale(1, 1);
-		line-height: 1;
 	}
 	.block-1__img {
 		height: 338px;
 	}
 	.block-1__h2 {
 		width: 526px;
-		height: 146px;
 		font-size: 100px;
 		top: 384px;
 		transform: scale(1, 1);
-		line-height: 110%;
 		display: flex;
 		justify-content: center;
 	}
@@ -682,7 +684,7 @@
 		padding: 0px;
 		height: 320px;
 		align-self: flex-start;
-		/* херня полная, но я по другому не  */
+		/* херня полная, но я по другому не вижу*/
 		margin-bottom: 180px;
 	}
 
@@ -740,14 +742,14 @@
 		padding: 328px 30px 0 130px;
 		gap: 12px;
 	}
+	.block-5__left-img {
+		height: 340px;
+		width: 564px;
+	}
 	.block-5__right-img {
 		height: 324px;
 		width: 570px;
 		top: -16px;
-	}
-	.block-5__left-img {
-		height: 340px;
-		width: 564px;
 	}
 	.block-5__rotated-text {
 		transform: rotate(-180deg);
@@ -764,4 +766,177 @@
 }
 
 @media screen and (max-width: 768px) {
+	/* высота такая же */
+	.block-1 {
+		height: 785px;
+		padding-top: 90px;
+	}
+	/* высота такая же */
+	.block-1__box {
+		width: 540px;
+		height: 666px;
+		padding-top: 46px;
+	}
+	.block-1__h1 {
+		width: 570px;
+		font-size: 146px;
+		top: 38px;
+		transform: scale(1, 1);
+		display: flex;
+		align-items: center;
+	}
+	.block-1__img {
+		height: 475px;
+		width: 540px;
+	}
+	.block-1__h2 {
+		width: 506px;
+		font-size: 100px;
+		top: 486px;
+		transform: scale(1, 1);
+		line-height: 110%;
+		display: flex;
+		justify-content: center;
+	}
+	.block-1__h3 {
+		width: 448px;
+		top: 408px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		text-align: left;
+	}
+
+	.block-2 {
+		height: 1410px;
+		padding-top: 22px;
+	}
+	.block-2__box {
+		width: 540px;
+		height: 1385px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.block-2__column-1 {
+		width: 100%;
+		padding: 464px 34px 0 12px;
+	}
+	.block-2__column-2 {
+		width: 100%;
+		padding: 0px 12px 0 12px;
+		gap: 35px;
+	}
+	.block-2__right-text-container {
+		height: 200px;
+		gap: 0px;
+	}
+	.block-2__img {
+		width: 628px;
+		height: 356px;
+		top: -21px;
+		left: -50px;
+		transform: translate(0, 0);
+	}
+	.block-2__rotated-text {
+		width: 110px;
+		font-size: 28px;
+		padding: 0px;
+		height: 320px;
+		align-self: flex-end;
+		/* херня полная, но я по другому не вижу*/
+		margin-bottom: 0px;
+	}
+
+	.block-3 {
+		height: 705px;
+		padding-top: 282px;
+	}
+	.block-3__img {
+		height: 256px;
+		width: 540px;
+		top: 75px;
+	}
+	.block-3__box {
+		width: 540px;
+		height: 364px;
+		padding: 56px 10px 0 10px;
+	}
+
+	.block-4 {
+		height: 1630px;
+		padding-top: 240px;
+	}
+	.block-4__box {
+		width: 540px;
+		height: 1346px;
+		flex-direction: column;
+	}
+	.block-4__column-1 {
+		width: 100%;
+		height: 660px;
+		/* поменяли отступы слева и справа */
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.block-4__h1 {
+		width: 560px;
+		top: -180px;
+	}
+	.block-4__column-2 {
+		width: 100%;
+		/* поменяли отступы слева и справа */
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.block-4__right-img {
+		height: 268px;
+	}
+
+	.block-5 {
+		height: 1568px;
+	}
+	.block-5__box {
+		height: 1482px;
+		width: 540px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.block-5__column-1 {
+		width: 100%;
+		height: 768px;
+		padding: 42px 70px 0 12px;
+	}
+	.block-5__column-2 {
+		width: 100%;
+		flex: 1;
+		padding: 328px 16px 0 96px;
+		gap: 12px;
+	}
+	.block-5__left-img {
+		height: 340px;
+		width: 528px;
+		left: 0;
+	}
+	.block-5__right-img {
+		height: 324px;
+		width: 495px;
+		top: -16px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.block-5__rotated-text {
+		transform: rotate(-180deg);
+		bottom: 20px;
+		left: 0;
+		width: 90px;
+		height: 487px;
+		z-index: 0;
+	}
+	.block-5__p-container {
+		width: 100%;
+		z-index: 10;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
 }
